@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Adrian Moure  </title>
-        <meta name="description" content="">
+        <title>Research | Adrian Moure</title>
+        <meta name="description" content="Research by Adrian Moure: multiphysics simulation for subsurface clean energy, multiphase flow, fracture dynamics, snow hydrology, soil carbon, and computational biomechanics.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/loder2.png">
@@ -45,7 +45,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo_adr.png" alt=""></a>
+                                    <a href="index.html"><img src="assets/img/logo/logo_adr.png" alt="" style="width:200px; height:auto;"></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10 col-md-10">
@@ -86,7 +86,7 @@
                         <div class="col-xl-12">
                             <div class="hero-cap">
                                 <h2>Research</h2>
-                                <p>My research is focused on problems with moving interfaces in geophysics, mechanical and biomedical engineering. Most of the challenges related to the numerical solution of moving boundary problems can be bypassed by using the phase-field method, which reformulates the moving boundary problem as a set of PDEs posed on a known and fixed computational domain. The phase-field method introduces a new variable, the phase field, which identifies each phase (or domain) and smoothly transitions on the interface. I develop new accurate, robust, and efficient computational methods to study a wide range of problems of interest in geophysics, mechanics and biomechanics.</p>
+                                <p>I develop multiphysics simulation methods for subsurface clean energy and, more broadly, for problems with moving interfaces in geophysics, mechanical and biomedical engineering. Most of the challenges related to the numerical solution of moving boundary problems can be bypassed by using the phase-field method, which reformulates the moving boundary problem as a set of PDEs posed on a known and fixed computational domain. The phase-field method introduces a new variable, the phase field, which identifies each phase (or domain) and smoothly transitions on the interface. I develop new accurate, robust, and efficient computational methods to study a wide range of problems of interest in geophysics, mechanics and biomechanics.</p>
                             </div>
                         </div>
                     </div>
@@ -100,87 +100,25 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-11 col-md-11">
                         <div class="about-me-caption">
-                            <h2>Cell migration</h2> 
-                            <p>Both individual and collective cell migration regulate key biological functions such as tissue formation, wound healing, or cancer metastasis. Cell motion results from complex intra- and extra-cellular mechanochemical interactions. The phase-field method allows me to track the cell shape, localize the dynamics of different compounds to moving volumes (cell's interior and exterior) and surfaces (cell's membrane), and control multicellular systems through an energy functional. The pictures show individual cell chemotaxis in a fibrous environment (left) and cell co-attraction in non-confluent multicellular systems (right).</p>
+                            <h2>Subsurface electrical stimulation</h2> 
+                            <p>I have developed multiphysics simulators to reproduce the electro-stimulation of rocks via pulsed power and Joule heating. These models account for the formation of plasma upon release of high-voltage energy pulses, the electrical-to-mechanical energy conversion occurring during shockwave generation, and the dynamic fracturing of the rocks. The pictures show the rock dielectric breakdown modeled with the electric-charge continuity equation (left) and pulsed-power fracturing modeled using the split-node method (right).</p>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-between align-items-center">                 
+                <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5 col-md-5">
                         <div class="about-me-img mb-30">
-                            <img src="assets/img/research/cel_fibers.png" alt="">
+                            <img src="assets/img/research/ERS_plasma.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="about-me-img mb-30">
-                            <img src="assets/img/research/multicel.png" alt="">
+                            <img src="assets/img/research/ERS_fract.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-	    
-        <div class="about-me pb-top">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="about-me-caption">
-                            <h2>Snow hydrology</h2> 
-                            <p>Snow is a heterogeneous porous material composed of ice, liquid water, and air. Complex processes such as preferential meltwater infiltration or ice piping affect the hydraulic, thermal, and mechanical properties of the snow. I model the phase transitions of the different phases (ice, liquid water, and air) at the microscopic scale to reproduce snow metamorphism. I also derived a model for meltwater infiltration at the macroscopic scale (~meter), which enables better prediction of meltwater infiltration and improved management of water resources. The picture displays water vapor concentration, ice, liquid water, and temperature during a snow melting event.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="about-me-img mb-30">
-                            <img src="assets/img/research/meltw_2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>  
-
-         <div class="about-me pb-top">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-11 col-md-11">
-                        <div class="about-me-caption">
-                            <h2>Soil carbon</h2> 
-                            <p>Soil organic matter represents the second largest reservoir of carbon in Earth. Microbial respiration, which is mediated by soil moisture, temperature, and soil structure, dictates CH4 and CO2 fluxes into the atmosphere. I develop a Darcy-scale model that couples biogeochemical processes under a reactive-transport framework to capture soil decomposition and gas generation. The model accounts for water infiltration and soil and organic matter heterogeneity. The figure in the left shows the water saturation, CO2 and O2 concentrations caused by aerobic respiration during a drainage event. Red circles represent organic matter aggregates. In the right, CO2 flux and accumulated CO2 released to the atmosphere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between align-items-center">                 
-                    <div class="col-lg-8 col-md-8">
-                        <div class="about-me-img mb-30">
-                            <img src="assets/img/research/carbon_prof.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="about-me-img mb-30">
-                            <img src="assets/img/research/carbon_flux.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-	    
-        <div class="about-me pb-top">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="about-me-caption">
-                            <h2>Cancer growth</h2> 
-                            <p>I have studied angiogenesis and glioma growth. Angiogenesis is the growth of new capillaries induced by tumors. The new capillaries provide an extra supply of oxygen to the tumor, which is essential to continue the tumor growth. Capillaries are localized through the phase-field method. Glioma is a highly malignant tumor that forms in the glial cells of the brain. I used the phase-field method to localize the dynamics of tumor cells, vasculature, and angiogenic factors to the brain geometry. The picture shows the time evolution of the concentration of normoxic tumor cells.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6">
-                        <div class="about-me-img mb-30">
-                            <img src="assets/img/research/PINHA.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-        <!-- About Me End -->
 
         <div class="about-me pb-top">
             <div class="container">
@@ -206,7 +144,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="about-me pb-top">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
@@ -228,27 +166,89 @@
         <div class="about-me pb-top">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-11 col-md-11">
+                    <div class="col-lg-6 col-md-6">
                         <div class="about-me-caption">
-                            <h2>Subsurface electrical stimulation</h2> 
-                            <p>I have developed multiphysics simulators to reproduce the electro-stimulation of rocks via pulsed power and Joule heating. These models account for the formation of plasma upon release of high-voltage energy pulses, the electrical-to-mechanical energy conversion occurring during shockwave generation, and the dynamic fracturing of the rocks. The pictures show the rock dielectric breakdown modeled with the electric-charge continuity equation (left) and pulsed-power fracturing modeled using the split-node method (right).</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-5 col-md-5">
-                        <div class="about-me-img mb-30">
-                            <img src="assets/img/research/ERS_plasma.png" alt="">
+                            <h2>Snow hydrology</h2> 
+                            <p>Snow is a heterogeneous porous material composed of ice, liquid water, and air. Complex processes such as preferential meltwater infiltration or ice piping affect the hydraulic, thermal, and mechanical properties of the snow. I model the phase transitions of the different phases (ice, liquid water, and air) at the microscopic scale to reproduce snow metamorphism. I also derived a model for meltwater infiltration at the macroscopic scale (~meter), which enables better prediction of meltwater infiltration and improved management of water resources. The picture displays water vapor concentration, ice, liquid water, and temperature during a snow melting event.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="about-me-img mb-30">
-                            <img src="assets/img/research/ERS_fract.png" alt="">
+                            <img src="assets/img/research/meltw_2.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="about-me pb-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-11 col-md-11">
+                        <div class="about-me-caption">
+                            <h2>Soil carbon</h2> 
+                            <p>Soil organic matter represents the second largest reservoir of carbon in Earth. Microbial respiration, which is mediated by soil moisture, temperature, and soil structure, dictates CH4 and CO2 fluxes into the atmosphere. I develop a Darcy-scale model that couples biogeochemical processes under a reactive-transport framework to capture soil decomposition and gas generation. The model accounts for water infiltration and soil and organic matter heterogeneity. The figure in the left shows the water saturation, CO2 and O2 concentrations caused by aerobic respiration during a drainage event. Red circles represent organic matter aggregates. In the right, CO2 flux and accumulated CO2 released to the atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">                 
+                    <div class="col-lg-8 col-md-8">
+                        <div class="about-me-img mb-30">
+                            <img src="assets/img/research/carbon_prof.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="about-me-img mb-30">
+                            <img src="assets/img/research/carbon_flux.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-me pb-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-11 col-md-11">
+                        <div class="about-me-caption">
+                            <h2>Cell migration</h2> 
+                            <p>Both individual and collective cell migration regulate key biological functions such as tissue formation, wound healing, or cancer metastasis. Cell motion results from complex intra- and extra-cellular mechanochemical interactions. The phase-field method allows me to track the cell shape, localize the dynamics of different compounds to moving volumes (cell's interior and exterior) and surfaces (cell's membrane), and control multicellular systems through an energy functional. The pictures show individual cell chemotaxis in a fibrous environment (left) and cell co-attraction in non-confluent multicellular systems (right).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">                 
+                    <div class="col-lg-5 col-md-5">
+                        <div class="about-me-img mb-30">
+                            <img src="assets/img/research/cel_fibers.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-me-img mb-30">
+                            <img src="assets/img/research/multicel.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-me pb-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-me-caption">
+                            <h2>Cancer growth</h2> 
+                            <p>I have studied angiogenesis and glioma growth. Angiogenesis is the growth of new capillaries induced by tumors. The new capillaries provide an extra supply of oxygen to the tumor, which is essential to continue the tumor growth. Capillaries are localized through the phase-field method. Glioma is a highly malignant tumor that forms in the glial cells of the brain. I used the phase-field method to localize the dynamics of tumor cells, vasculature, and angiogenic factors to the brain geometry. The picture shows the time evolution of the concentration of normoxic tumor cells.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-me-img mb-30">
+                            <img src="assets/img/research/PINHA.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- About Me End -->
        
     </main>
@@ -261,9 +261,9 @@
                        <div class="col-lg-10">
                             <div class="footer-top-cap text-center">
        <!--                         <img src="assets/img/logo/logo2_footer.png" alt="">   -->
-                                <span><a >adrian.moure.rosende@edengeopower.com</a></span>
-                                <p>Greentown Labs</p>
-                                <p>444 Somerville Av., Somerville, MA 02143, USA</p>
+                                <span><a href="mailto:a.moure.rosende@gmail.com">a.moure.rosende@gmail.com</a></span>
+                                <p>Somerville, MA, USA</p>
+                                <p><a href="https://www.linkedin.com/in/adrian-moure" target="_blank">LinkedIn</a></p>
                             </div>
                        </div>
                    </div>
